@@ -37,6 +37,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bagBall.cs" />
     <Compile Include="PaddleGame.cs">
       <SubType>Form</SubType>
     </Compile>
