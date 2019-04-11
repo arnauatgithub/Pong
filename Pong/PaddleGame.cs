@@ -153,10 +153,7 @@ public class PaddleGame : Form
 
         //  Reset the ball location, velocity, and
         //  paddle location.
-    /*    ballVx = 100.0;
-        ballVz = -80.0;
-        ballX = 100.0;
-        ballZ = 100.0; */
+        pilota = new bagBall(100, 100, 100, -71, 0);
         paddleZ = 100;
 
         //  Update the display.
