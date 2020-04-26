@@ -62,14 +62,14 @@ public class PaddleGame : Form
         //  Create TextBox objects to display the outcome.
         vxTextBox = new TextBox();
         vxTextBox.Width = 60;
-        vxTextBox.Text = "100.0";
+        vxTextBox.Text = String.Format("{0}", 100.0m);
         vxTextBox.AutoSize = true;
         vxTextBox.Top = vxLabel.Top;
         vxTextBox.Left = 110;
 
         vzTextBox = new TextBox();
         vzTextBox.Width = 60;
-        vzTextBox.Text = "-80.0";
+        vzTextBox.Text = String.Format("{0}", -80.0m);
         vzTextBox.AutoSize = true;
         vzTextBox.Top = vzLabel.Top;
         vzTextBox.Left = 110;
